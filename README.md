@@ -1,6 +1,8 @@
 # fp-thinking
 
-A Claude skill that explains things the way you'd figure them out yourself. You feel the problem first, find what causes it, and then meet the concept as the fix.
+An AI agent skill that explains things the way you'd figure them out yourself. You feel the problem first, find what causes it, and then meet the concept as the fix.
+
+Works with any agent that reads `SKILL.md` files.
 
 ## Install
 
@@ -8,15 +10,17 @@ A Claude skill that explains things the way you'd figure them out yourself. You 
 npx skills add SmitMachhi/fp-thinking
 ```
 
-Or copy `skills/fp-thinking` into `~/.claude/skills/`.
+Or copy `skills/fp-thinking` into your agent's skills folder.
 
 ## Use
 
+Ask your agent:
+
 ```
-/fp-thinking what is a database index?
+use fp-thinking: what is a database index?
 ```
 
-Claude also picks it up when you say "explain X", "how does X work" or "teach me X".
+Most agents also pick it up when you say "explain X", "how does X work" or "teach me X".
 
 ## What you get
 
@@ -29,7 +33,7 @@ Each answer walks the same path:
 5. The concept, as the fix
 6. A short recap, plus when to skip it
 
-Claude writes for a total beginner, with short sentences and everyday analogies. It works on code, algorithms, science, business, or whatever you're stuck on.
+The agent writes for a total beginner, with short sentences and everyday analogies. It works on code, algorithms, science, business, or whatever you're stuck on.
 
 ## License
 

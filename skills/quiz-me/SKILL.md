@@ -14,8 +14,8 @@ What it does not do: explain the topic up front, save progress between sessions,
 
 Load these skills:
 
-1. `i-have-adhd:i-have-adhd`: required. Every word this skill produces follows it: each question, each piece of feedback, the final recap. Missing? Stop and tell the user.
-2. `fp-thinking`: how to explain a wrong answer. Missing? Say so in one line, then go on.
+1. `i-have-adhd:i-have-adhd`: when installed, every word this skill produces follows it: each question, each piece of feedback, the final recap. Missing? Go on, and keep the same shape: answer first, short sentences, numbered steps, no preamble.
+2. `fp-thinking`: how to explain a wrong answer. Missing? Go on, and still explain in cause-and-effect steps.
 
 ## 1. Find the source
 

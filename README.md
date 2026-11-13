@@ -24,7 +24,7 @@ use fp-thinking: what is a database index?
 
 Quizzes you on anything until it sticks: a page, a doc, code, or what you just talked about. You get one question at a time. Pick an option or answer in your own words. Miss one and it walks you to the answer, then asks again later with a new example.
 
-It needs fp-thinking and [i-have-adhd](https://github.com/ayghri/i-have-adhd).
+It uses fp-thinking and [i-have-adhd](https://github.com/ayghri/i-have-adhd) if you have them, and works without them.
 
 ```
 quiz me on how DNS works

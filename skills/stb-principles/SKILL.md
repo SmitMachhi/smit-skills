@@ -7,8 +7,6 @@ description: Applies Sean Barrett's stb library principles to any code or system
 
 Eight rules from Sean T. Barrett's stb libraries, made general. Rule 1 decides ties between the others.
 
-Don't fetch anything. Quotes below come from the files in `sources/`.
-
 ## 1. Easy to use, then easy to maintain, then fast
 
 Barrett: "1. easy to use 2. easy to maintain 3. good performance." (`sources/stb_image.h`, lines 226 to 246)

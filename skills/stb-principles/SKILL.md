@@ -7,7 +7,7 @@ description: Applies Sean Barrett's stb library principles to any code or system
 
 Eight rules from Sean T. Barrett's stb libraries, made general. Rule 1 decides ties between the others.
 
-This skill works offline. Don't fetch anything. Each quote below names a file and line in `sources/`, which holds full copies of the stb files. Links inside those files point to stb's website, and you don't need them.
+Don't fetch anything. Quotes below come from the files in `sources/`. Ignore links inside them.
 
 ## 1. Easy to use, then easy to maintain, then fast
 

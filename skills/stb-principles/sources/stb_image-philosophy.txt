@@ -1,0 +1,18 @@
+// Philosophy
+//
+// stb libraries are designed with the following priorities:
+//
+//    1. easy to use
+//    2. easy to maintain
+//    3. good performance
+//
+// Sometimes I let "good performance" creep up in priority over "easy to maintain",
+// and for best performance I may provide less-easy-to-use APIs that give higher
+// performance, in addition to the easy-to-use ones. Nevertheless, it's important
+// to keep in mind that from the standpoint of you, a client of this library,
+// all you care about is #1 and #3, and stb libraries DO NOT emphasize #3 above all.
+//
+// Some secondary priorities arise directly from the first two, some of which
+// provide more explicit reasons why performance can't be emphasized.
+//
+//    - Portable ("ease of use")

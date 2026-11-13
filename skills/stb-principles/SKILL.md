@@ -7,7 +7,7 @@ description: Applies Sean Barrett's stb library principles to any code or system
 
 Eight rules from Sean T. Barrett's stb libraries, made general. Rule 1 decides ties between the others.
 
-Sources: [stb_image.h "Philosophy"](https://github.com/nothings/stb/blob/master/stb_image.h), [docs/stb_howto.txt](https://github.com/nothings/stb/blob/master/docs/stb_howto.txt), [README FAQ](https://github.com/nothings/stb).
+Sources, copied into this skill: [stb_image.h "Philosophy"](sources/stb_image-philosophy.txt), [docs/stb_howto.txt](sources/stb_howto.txt), [README FAQ](sources/readme-faq.md). [sources/README.md](sources/README.md) links the originals.
 
 ## 1. Easy to use, then easy to maintain, then fast
 

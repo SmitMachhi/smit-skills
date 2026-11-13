@@ -14,7 +14,7 @@ Add `--skill fp-thinking` or `--skill stb-principles` to install one. You can al
 
 ### fp-thinking
 
-Explains a concept the way you'd work it out yourself. You feel the problem, find the cause, then meet the concept as the fix. It writes for a total beginner.
+First principles thinking. Explains a concept the way you'd work it out yourself. You feel the problem, find the cause, then meet the concept as the fix. It writes for a total beginner.
 
 ```
 use fp-thinking: what is a database index?

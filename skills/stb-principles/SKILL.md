@@ -7,7 +7,7 @@ description: Applies Sean Barrett's stb library principles to any code or system
 
 Eight rules from Sean T. Barrett's stb libraries, made general. Rule 1 decides ties between the others.
 
-Don't fetch anything. Quotes below come from the files in `sources/`. Ignore links inside them.
+Don't fetch anything. Quotes below come from the files in `sources/`.
 
 ## 1. Easy to use, then easy to maintain, then fast
 

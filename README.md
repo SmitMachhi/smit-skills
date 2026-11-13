@@ -35,6 +35,16 @@ Each answer walks the same path:
 
 The agent writes for a total beginner, with short sentences and everyday analogies. It works on code, algorithms, science, business, or whatever you're stuck on.
 
+## Also in this repo: stb-principles
+
+A second skill, `skills/stb-principles`. It applies Sean Barrett's stb library rules to any code: easy to use first, few dependencies, one idea per module, small public interface, honest limits, plain code.
+
+```bash
+npx skills add SmitMachhi/fp-thinking --skill stb-principles
+```
+
+Ask your agent "review this stb-style" or "apply Barrett rules".
+
 ## License
 
 MIT

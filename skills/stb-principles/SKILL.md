@@ -7,11 +7,11 @@ description: Applies Sean Barrett's stb library principles to any code or system
 
 Eight rules from Sean T. Barrett's stb libraries, made general. Rule 1 decides ties between the others.
 
-Sources, copied in full into this skill: [stb_image.h "Philosophy"](sources/stb_image.h) (lines 226 to 243), [docs/stb_howto.txt](sources/docs/stb_howto.txt), [README FAQ](sources/README.md). [sources/ORIGIN.md](sources/ORIGIN.md) links the originals.
+This skill works offline. Don't fetch anything. Each quote below names a file and line in `sources/`, which holds full copies of the stb files. Links inside those files point to stb's website, and you don't need them.
 
 ## 1. Easy to use, then easy to maintain, then fast
 
-Barrett: "1. easy to use 2. easy to maintain 3. good performance."
+Barrett: "1. easy to use 2. easy to maintain 3. good performance." (`sources/stb_image.h`, lines 226 to 246)
 
 - Pick the version a caller can use without mistakes from its signature alone.
 - Pick readable over clever. Optimize only with a measurement in hand.
@@ -20,7 +20,7 @@ Barrett: "1. easy to use 2. easy to maintain 3. good performance."
 
 ## 2. Few dependencies
 
-Barrett: "Don't rely on anything other than the C standard libraries."
+Barrett: "Don't rely on anything other than the C standard libraries." (`sources/docs/stb_howto.txt`, line 31)
 
 - Reach for the language's standard library or platform first.
 - Add no package for something a few lines can do.
@@ -30,7 +30,7 @@ Barrett: "Don't rely on anything other than the C standard libraries."
 
 ## 3. One idea, one self-contained module
 
-Barrett: "the difference between 2 files and 1 file is a big deal."
+Barrett: "the difference between 2 files and 1 file is a big deal." (`sources/README.md`, line 145)
 
 - One idea lives in one module you can read top to bottom.
 - Don't split a small idea across many tiny files. Don't pile unrelated ideas into one large file.
@@ -39,7 +39,7 @@ Barrett: "the difference between 2 files and 1 file is a big deal."
 
 ## 4. Small public interface, private internals
 
-Barrett puts public names under one prefix and private ones under another, so internals never leak.
+Barrett puts public names under one prefix and private ones under another, so internals never leak. (`sources/docs/stb_howto.txt`, lines 94 to 104)
 
 - Expose only what another module uses. Keep the rest private with the language's own tools.
 - No exports kept for tests when the test can go through the public path.
@@ -48,7 +48,7 @@ Barrett puts public names under one prefix and private ones under another, so in
 
 ## 5. Small footprint, narrow scope
 
-Barrett stopped adding formats because each one "increases the amount of code we need to secure."
+Barrett stopped adding formats because each one "increases the amount of code we need to secure." (`sources/README.md`, lines 155 to 160)
 
 - Change only what the task needs. No side refactors in the same change.
 - Each new line is code someone secures and maintains. Delete before you add.
@@ -57,7 +57,7 @@ Barrett stopped adding formats because each one "increases the amount of code we
 
 ## 6. Usage notes and honest limits up front
 
-Each stb header opens with how to use it, its options, and what it does not guarantee.
+Each stb header opens with how to use it, its options, and what it does not guarantee. (`sources/stb_image.h`, lines 1 to 60)
 
 - Start any non-obvious module with one short note: what it does, how to call it, what it does not promise.
 - State limits in plain words: "Safe against crashes. Not safe against power loss."
@@ -67,7 +67,7 @@ Each stb header opens with how to use it, its options, and what it does not guar
 
 ## 7. Pass context in, no hidden global state
 
-Barrett: "consider letting the user pass in a context ... Otherwise, users may have to use global or thread-local variables."
+Barrett: "consider letting the user pass in a context ... Otherwise, users may have to use global or thread-local variables." (`sources/docs/stb_howto.txt`, lines 44 to 47)
 
 - Pass dependencies in as arguments.
 - No module-level mutable state, global registries or singletons.
@@ -76,7 +76,7 @@ Barrett: "consider letting the user pass in a context ... Otherwise, users may h
 
 ## 8. Plain, direct code
 
-Barrett: the library should be "easy to invoke (which requires good API design)."
+Barrett: the library should be "easy to invoke (which requires good API design)." (`sources/docs/stb_howto.txt`, line 132)
 
 - Plain functions over classes, factories, or interfaces with one implementation.
 - Straight-line code a tired reader gets on the first pass.

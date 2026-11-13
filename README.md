@@ -7,7 +7,7 @@ Works with any agent that reads `SKILL.md` files.
 ## Install
 
 ```bash
-npx skills add SmitMachhi/fp-thinking
+npx skills add SmitMachhi/smit-skills --skill fp-thinking
 ```
 
 Or copy `skills/fp-thinking` into your agent's skills folder.
@@ -40,7 +40,7 @@ The agent writes for a total beginner, with short sentences and everyday analogi
 A second skill, `skills/stb-principles`. It applies Sean Barrett's stb library rules to any code: easy to use first, few dependencies, one idea per module, small public interface, honest limits, plain code.
 
 ```bash
-npx skills add SmitMachhi/fp-thinking --skill stb-principles
+npx skills add SmitMachhi/smit-skills --skill stb-principles
 ```
 
 Ask your agent "review this stb-style" or "apply Barrett rules".

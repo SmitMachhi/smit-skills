@@ -1,49 +1,32 @@
-# fp-thinking
+# smit-skills
 
-An AI agent skill that explains things the way you'd figure them out yourself. You feel the problem first, find what causes it, and then meet the concept as the fix.
-
-Works with any agent that reads `SKILL.md` files.
+My agent skills. Each one is a single `SKILL.md`, so any agent that reads skill files can use it.
 
 ## Install
 
 ```bash
-npx skills add SmitMachhi/smit-skills --skill fp-thinking
+npx skills add SmitMachhi/smit-skills
 ```
 
-Or copy `skills/fp-thinking` into your agent's skills folder.
+Add `--skill fp-thinking` or `--skill stb-principles` to install one. You can also copy a folder from `skills/` into your agent's skills folder.
 
-## Use
+## Skills
 
-Ask your agent:
+### fp-thinking
+
+Explains a concept the way you'd work it out yourself. You feel the problem, find the cause, then meet the concept as the fix. It writes for a total beginner.
 
 ```
 use fp-thinking: what is a database index?
 ```
 
-Most agents also pick it up when you say "explain X", "how does X work" or "teach me X".
+### stb-principles
 
-## What you get
+Applies Sean Barrett's stb library rules to your code: easy to use first, few dependencies, small public interface, plain code.
 
-Each answer walks the same path:
-
-1. Life before the concept
-2. What went wrong
-3. The root cause
-4. "So how can we solve this?"
-5. The concept, as the fix
-6. A short recap, plus when to skip it
-
-The agent writes for a total beginner, with short sentences and everyday analogies. It works on code, algorithms, science, business, or whatever you're stuck on.
-
-## Also in this repo: stb-principles
-
-A second skill, `skills/stb-principles`. It applies Sean Barrett's stb library rules to any code: easy to use first, few dependencies, one idea per module, small public interface, honest limits, plain code.
-
-```bash
-npx skills add SmitMachhi/smit-skills --skill stb-principles
 ```
-
-Ask your agent "review this stb-style" or "apply Barrett rules".
+review this file stb-style
+```
 
 ## License
 
